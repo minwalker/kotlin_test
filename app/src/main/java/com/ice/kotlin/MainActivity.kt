@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
 
-        Toast.makeText(this, "test branch", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "main3 branch", Toast.LENGTH_SHORT).show()
         return true
     }
 
