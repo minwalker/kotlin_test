@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
-        Toast.makeText(this, "main branch", Toast.LENGTH_SHORT).show()
+
+        Toast.makeText(this, "test branch", Toast.LENGTH_SHORT).show()
         return true
     }
 
